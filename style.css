@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  'Karla', sans-serif;
+    color: hsl(204, 43%, 93%);
+}
+
+body {
+    background-color: rgb(219, 212, 212);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    font-size: 30px;
+    color:  hsl(179, 62%, 43%);
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.header-2 {
+    font-size: 20px;
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 15px;
+    text-shadow: 1px 0 hsl(71, 73%, 54%);
+    letter-spacing: 1px;
+}
+
+.container {
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+header p:first-of-type {
+    margin-bottom: 5px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-right: 80px;
+    text-shadow: 1px 0 hsl(179, 62%, 43%);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: hsl(0, 4%, 67%);
+}
+
+
+.first-body {
+    box-sizing: border-box;
+    width: 346px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: hsl(179, 62%, 43%);
+    padding: 40px;
+    border-radius: 0 0 0 10px;
+}
+
+main {
+    display: flex;
+}
+
+.header-3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-shadow: 1px 0 hsl(204, 43%, 93%);
+    letter-spacing: 1px;
+}
+
+.price {
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 1px 0 hsl(204, 43%, 93%);
+    letter-spacing: 1px;
+}
+
+.price-cont {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.price-cont + p {
+    margin-bottom: 30px;
+}
+
+.sign-up {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 230px;
+    height: auto;
+    padding: 15px 0px;
+    text-shadow: 1px 0 hsl(204, 43%, 93%);
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 5px hsl(179, 74%, 27%);
+}
+
+.sign-up:hover {
+    background-color: hsl(204, 43%, 93%);   
+    color: hsl(71, 73%, 54%);
+    cursor: pointer;
+    text-shadow: 1px 0 hsl(71, 73%, 54%);
+    letter-spacing: 1px;
+}
+
+.header-4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-shadow: 1px 0 hsl(204, 43%, 93%);
+    letter-spacing: 1px;
+}
+.second-body {
+    box-sizing: border-box;
+    width: 346px;
+    background-color: rgb(115, 195, 241);
+    padding: 30px;
+    border-radius: 0 0 10px 0;
+}
+
+.second-body p {
+    margin-bottom: 4px;
+}
